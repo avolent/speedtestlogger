@@ -1,0 +1,5 @@
+#!/bin/sh
+
+date >> /opt/speedtest-cli/speedtest.log
+/opt/speedtest-cli/speedtest-ifttt.sh >> /opt/speedtest-cli/speedtest.log
+echo "" >> /opt/speedtest-cli/speedtest.log
