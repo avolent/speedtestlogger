@@ -1,4 +1,4 @@
-# speedtest logger for a linux device
+# Speedtest logger for a linux device
 
 ### Auto Speedtest logger based off https://makezine.com/projects/send-ticket-isp-when-your-internet-drops/ for any device
 
