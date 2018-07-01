@@ -79,7 +79,7 @@ if test "$1" = "--standardize"; then
 fi
 
 # Send to IFTTT
-secret_key="cIcJ6-HfjvL2SW6Q4BdM_O"
+secret_key="SECRET_KEY"
 value1=`echo $server_ping | cut -d" " -f1`
 value2=`echo $download | cut -d" " -f1`
 value3=`echo $upload | cut -d" " -f1` 

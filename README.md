@@ -48,7 +48,7 @@ git clone https://github.com/avolent/speedtestlogger.git
 
 vi speedtest-ifft.sh
 ~~~
-replace "SECRETKEY" `secret_key="SECRET_KEY"` with your own. This is located at the bottom of the file.
+replace "SECRET_KEY" `secret_key="SECRET_KEY"` with your own. This is located at the bottom of the file.
 
 ```
 # Send to IFTTT
@@ -60,7 +60,7 @@ json="{\"value1\":\"${value1}\",\"value2\":\"${value2}\",\"value3\":\"${value3}\
 curl -X POST -H "Content-Type: application/json" -d "${json}" https://maker.ifttt.com/trigger/speedtest/with/key/${secret_key}  
 ```
 6. __Ensure the the speedtest-ifft.sh is executable and test__
-Make Executable and run
+>Make Executable and run
 ~~~
 sudo chmod +x speedtest-ifft.sh
 ./speedtest-ifft.sh
@@ -72,7 +72,7 @@ Congratulations! You've fired the speedtest event
 ```
 
 7. __Ensure the speedtest-cron.sh file is executable and test__
-Make Executable and run
+>Make Executable and run
 ~~~
 sudo chmod +x speedtest-cron.sh
 ./speedtest-cron.sh
