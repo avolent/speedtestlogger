@@ -7,7 +7,7 @@
 sudo apt-get update
 sudo apt-get install python3-pip
 ```
-or for older python version
+>or for older python version
 ```
 sudo  apt-get install python-pip
 ```
@@ -15,7 +15,7 @@ sudo  apt-get install python-pip
 ```
 sudo pip3 install speedtest-cli
 ```
-or for older python version
+>or for older python version
 ```
 sudo pip install speedtest-cli
 ```
@@ -23,7 +23,7 @@ sudo pip install speedtest-cli
 ```
 speedtest-cli
 ```
-output should be something like
+>output should be something like
 ```
 server@ubuntu:~$ speedtest-cli
 Retrieving speedtest.net configuration...
@@ -48,7 +48,7 @@ git clone https://github.com/avolent/speedtestlogger.git
 
 vi speedtest-ifft.sh
 ~~~
-replace "SECRET_KEY" `secret_key="SECRET_KEY"` with your own. This is located at the bottom of the file.
+>replace "SECRET_KEY" `secret_key="SECRET_KEY"` with your own. This is located at the bottom of the file.
 
 ```
 # Send to IFTTT
@@ -61,11 +61,11 @@ curl -X POST -H "Content-Type: application/json" -d "${json}" https://maker.iftt
 ```
 6. __Ensure the the speedtest-ifft.sh is executable and test__
 >Make Executable and run
-~~~
+```
 sudo chmod +x speedtest-ifft.sh
 ./speedtest-ifft.sh
-~~~
-Output should look something like this and a spreadsheet should be aded to your goolge drive.
+```
+>Output should look something like this and a spreadsheet should be aded to your goolge drive.
 ```
 $ ./speedtest-ifttt.sh 
 Congratulations! You've fired the speedtest event
@@ -77,15 +77,15 @@ Congratulations! You've fired the speedtest event
 sudo chmod +x speedtest-cron.sh
 ./speedtest-cron.sh
 ~~~
-Check your spreadsheet for an update.
+>Check your spreadsheet for an update.
 
 8. __Edit your crontab__
-Edit your crontab to make script run every hr.
+>Edit your crontab to make script run every hr.
 ~~~
 crontabe -e
 ~~~
-add this to the bottom.
+>add this to the bottom.
 ~~~
 0 * * * * ~/speedtest-cron.sh
 ~~~
-Save and check you spreadsheet every hr to see if it updates.
+>Save and check you spreadsheet every hr to see if it updates.
