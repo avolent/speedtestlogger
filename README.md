@@ -1,6 +1,6 @@
 # Speedtest logger for a linux device
 
-### Auto Speedtest logger based off https://makezine.com/projects/send-ticket-isp-when-your-internet-drops/ for any device
+### Auto Speedtest logger guide based off https://makezine.com/projects/send-ticket-isp-when-your-internet-drops/ for any device
 
 1. __Install python.__
 ```
