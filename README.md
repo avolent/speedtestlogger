@@ -86,6 +86,6 @@ crontabe -e
 ~~~
 >add this to the bottom.
 ~~~
-0 * * * * ~/speedtest-cron.sh
+0 * * * * ~/speedtestlogger/speedtest-cron.sh
 ~~~
 >Save and check you spreadsheet every hr to see if it updates.
