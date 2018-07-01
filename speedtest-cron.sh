@@ -1,5 +1,5 @@
 #!/bin/bash
  
-date >> ~/Scripts/Speedtest/speedtest.log
-~/Scripts/Speedtest/speedtest-ifttt.sh >> ~/Scripts/Speedtest/speedtest.log
-echo "" >> ~/Scripts/Speedtest/speedtest.log
+date >> ~/speedtestlogger/speedtest.log
+~/speedtestlogger/speedtest-ifttt.sh >> ~/speedtestlogger/speedtest.log
+echo "" >> ~/speedtestlogger/speedtest.log
