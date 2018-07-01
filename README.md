@@ -82,7 +82,7 @@ sudo chmod +x speedtest-cron.sh
 8. __Edit your crontab__
 >Edit your crontab to make script run every hr.
 ~~~
-crontabe -e
+crontab -e
 ~~~
 >add this to the bottom.
 ~~~
