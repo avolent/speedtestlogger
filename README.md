@@ -44,7 +44,7 @@ https://ifttt.com/services/maker_webhooks/settings
 
 5. __Download the git and edit the speedtest-ifft.sh__
 ~~~
-git clone https://github.com/avolent/speedtestlogger.git
+git clone https://github.com/avolent/speedtestlogger.git && cd speedtestlogger
 
 vi speedtest-ifft.sh
 ~~~
