@@ -42,6 +42,8 @@ https://ifttt.com/applets/379108p-log-speedtest-results-to-spreadsheet
 >Locate and make note of your secret key from:
 https://ifttt.com/services/maker_webhooks/settings
 
+>__**Secret Key is the last part of the url in your profile https://maker.ifttt.com/use/"secretkey"**__
+
 5. __Download the git and edit the speedtest-ifft.sh__
 ~~~
 git clone https://github.com/avolent/speedtestlogger.git && cd speedtestlogger
