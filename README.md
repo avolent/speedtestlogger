@@ -44,11 +44,11 @@ https://ifttt.com/services/maker_webhooks/settings
 
 >__**Secret Key is the last part of the url in your profile https://maker.ifttt.com/use/"secretkey"**__
 
-5. __Download the git and edit the speedtest-ifft.sh__
+5. __Download the git and edit the speedtest-ifttt.sh__
 ~~~
 git clone https://github.com/avolent/speedtestlogger.git && cd speedtestlogger
 
-vi speedtest-ifft.sh
+vi speedtest-ifttt.sh
 ~~~
 >replace "SECRET_KEY" `secret_key="SECRET_KEY"` with your own. This is located at the bottom of the file.
 
@@ -64,8 +64,8 @@ curl -X POST -H "Content-Type: application/json" -d "${json}" https://maker.iftt
 6. __Ensure the the speedtest-ifft.sh is executable and test__
 >Make Executable and run
 ```
-sudo chmod +x speedtest-ifft.sh
-./speedtest-ifft.sh
+sudo chmod +x speedtest-ifttt.sh
+./speedtest-ifttt.sh
 ```
 >Output should look something like this and a spreadsheet should be aded to your goolge drive.
 ```
