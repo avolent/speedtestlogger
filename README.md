@@ -69,7 +69,7 @@ sudo chmod +x speedtest-ifttt.sh
 ```
 >Output should look something like this and a spreadsheet should be aded to your goolge drive.
 ```
-$ ./speedtest-ifttt.sh 
+./speedtest-ifttt.sh 
 Congratulations! You've fired the speedtest event
 ```
 
